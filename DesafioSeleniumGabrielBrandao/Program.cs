@@ -16,7 +16,7 @@ namespace Selenium_Automation
 
 			excel.Application x1app = new excel.Application();
 
-			excel.Workbook x1Wb = x1app.Workbooks.Open(@"C:\Users\bielf\Desktop\GoLiveTech - Exercício Rafael - Base CEPs.xlsx");
+			excel.Workbook x1Wb = x1app.Workbooks.Open(@"C:\Users\bielf\Desktop\Base CEPs.xlsx");
 
 			excel.Worksheet x1Ws = x1Wb.Sheets[1];
 
@@ -34,7 +34,7 @@ namespace Selenium_Automation
 
 			excel.Application x1app = new excel.Application();
 
-			excel.Workbook x1Wb = x1app.Workbooks.Open(@"C:\Users\bielf\Desktop\GoLiveTech - Exercício Rafael - Base CEPs - Output.xlsx");
+			excel.Workbook x1Wb = x1app.Workbooks.Open(@"C:\Users\bielf\Desktop\Base CEPs - Output.xlsx");
 			//excel.Workbook x1Wb = x1app.Workbooks.Open(@"Seu endereço\Nome do arquivo.xlxs");
 
 			excel.Worksheet x1Ws = x1Wb.Sheets[1];
